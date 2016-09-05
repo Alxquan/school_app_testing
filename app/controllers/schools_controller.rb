@@ -1,13 +1,5 @@
 class SchoolsController < ApplicationController
   def index
-  end
-
-  def new
-  end
-
-  def edit
-  end
-
-  def show
+    @schools = School.all
   end
 end
